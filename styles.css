@@ -1,1 +1,65 @@
-p { color: red; }
+/* Reset some default styling */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #eee;
+}
+
+header {
+    text-align: center;
+    padding: 30px 0;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ccc;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #111;
+}
+
+.red-text {
+    color: rgb(210, 0, 0);
+}
+
+.grey-text {
+    color: rgb(150, 150, 150);
+}
